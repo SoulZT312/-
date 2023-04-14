@@ -1,0 +1,129 @@
+html{
+    height: 100%;
+}
+body{
+    background: url(./images/BJ2.jpeg) no-repeat 50% 0 transparent;
+    background-size: 100% 100%;
+    position: relative;
+}
+.content{
+    position: relative;
+    width: 1200px;
+    height: 800px;
+}
+.mid{
+    
+    position: absolute;
+    left: 200px;
+    top:150px;
+    height: 600px;
+    width: 800px;
+}
+.left{
+   border-radius: 20px 0px 0px 20px;
+   float: left;
+   text-align: center;
+   height: 600px;
+   width: 400px;
+   background-color: whitesmoke;
+}
+.right{
+    position: relative;
+   border-radius: 0px 20px 20px 0px;
+   float: left;
+   height: 600px;
+   width: 400px;
+   background-image: linear-gradient(transparent,rgba(255, 252, 252, 0.406));
+}
+.left h1{
+    margin-top: 50px;
+    color: rgb(232, 110, 66);
+    font-size: 25px;
+    font-family: "得意黑 斜体";font-weight: 400;src: url("./zt/CLYtmBLKvK8VL0PjIE6D0.woff2") format("woff2"),
+    url("./zt/CLYtmBLKvK8VL0PjIE6D0.woff") format("woff");
+    font-display: swap;
+}
+.left input{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #b8761a;
+    background-color: rgb(239, 230, 230);
+}
+.left a{
+    color: #090909;
+    font-size: 15px;
+}
+.left a:hover{
+   color: #b8761a;
+}
+.left .btnLeft{
+    border:1px solid  #7b9ebd;
+    font-size: 17px;
+    color: antiquewhite;
+    background-color: rgb(189, 100, 16);  
+    border-radius: 20px 20px 20px 20px;
+    width: 150px;
+    height: 45px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.left .btnLeft:hover{
+    color: orange;  
+    background-color: #8a5407; 
+    transform: scale(1.1);
+}
+.left .else{
+    font-size: 12px;
+    margin-top: 30px;
+    font-family: "站酷高端黑 Regular";font-weight: 400;src: url("//at.alicdn.com/wf/webfont/aIx1nUKEf5s9/bI0XFt1C8UNdqY8Xr-Ep9.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/aIx1nUKEf5s9/KVMLZXuRrfkqq_WgWXW0g.woff") format("woff");
+    font-display: swap;
+}
+
+.right .btnRight{
+    position: absolute;
+    font-size: 17px;
+    color: antiquewhite;
+    background-color: rgb(189, 100, 16);  
+    left: 50px;
+    top: 260px;
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 60px;
+    border: 1px solid  #7b9ebd;
+    transition: all 0.5s;
+}
+.right .btnRight:hover{
+    color: orange; 
+    background-color: #8a5407;  
+    transform: scale(1.1);
+}
+.bottom{
+    margin-top: 20px;
+}
+
+.bottom .icon-weixinweixin{
+    font-size: 40px;
+    display: inline-block;
+    color: #b8761a;
+    transition: all 0.5s;
+}
+.bottom .icon-qq-copy-copy{
+    font-size: 43px;
+    display: inline-block;
+    color: #b8761a;
+    transition: all 0.5s;
+}
+.left .icon-weixinweixin:hover{
+    color: #8a5407;
+    transform: scale(1.1);
+}
+.left .icon-qq-copy-copy:hover{
+    color: #8a5407;
+    transform: scale(1.1);
+}
+
+
+
+

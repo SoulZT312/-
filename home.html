@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黄昏闪剧</title>
+    <link rel="stylesheet" href="./clear.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./logo/home/iconfont.css">
+    <link rel="stylesheet" href="./Swiper/swiper/swiper-bundle.min.css">
+    <script src="./jquery.js"></script>
+
+</head>
+<body>
+    <div class="content wrapper">
+        <div class="header">
+
+            <a href="#"><div class="iconfont icon-type"></div></a>
+
+
+        <div class="mid">
+            <ul>
+                <li><a href="">首页</a></li>
+            </ul>
+            <ul>
+                <li><a href="">电视剧</a></li>
+            </ul>
+            <ul>
+                <li><a href="">电影</a></li>
+            </ul>
+            <ul>
+                <li><a href="">云影院</a></li>
+            </ul>
+            <ul>
+                <li><a href="">动漫</a></li>
+            </ul>
+            <ul>
+                <li><a href="">游戏</a></li>
+            </ul>
+            <ul>
+                <li><a href="">直播</a></li>
+            </ul>
+            <ul>
+                <li><a href="">会员中心</a></li>
+            </ul>
+        </div>
+        <script>
+            $(".content .mid li a").eq(7).css('color',`#e2b987`);
+        </script>
+        <div class="search">
+            <input type="search"  placeholder="  狂飙">
+            
+            <a href=""><div class="iconfont icon-sousuotianchong">
+                           <span>搜索</span>
+                       </div>
+            </a>    
+        </div>
+
+        <div class="button">
+            <a href=""><span class="iconfont icon-yunshangchuan"></span></a>
+            <a href=""><span class="iconfont icon-yunxiazai"></span></a>
+            <a href=""><span class="iconfont icon-lishijilu"></span></a>
+            
+        </div>
+
+        <a href="">
+        <div class="iconfont icon-touxiang">
+            <span>登录</span>
+        </div></a>
+        
+         
+        
+        </div> 
+        <div class="box">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/SC2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/bj01.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/SC4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/SC6.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/SC3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/SC7.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+        <script src="./Swiper/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              autoplay:{
+            delay:4000,
+            disableOnInteraction:false,
+          },
+            });
+        </script>
+        <div class="main">
+            <div class="mainNav"><b>热门推荐</b></div>
+            <ul>
+                <li>
+                    <a href="https://www.tvmao.com/drama/cCFgZ2Jp/episode">
+                        <img src="./images/KBG.jpg" alt="">
+                        <h4>狂飙</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>张译张颂文黑白较量</div>
+                    
+                </li> 
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://movie.douban.com/subject/35465021/">
+                        <img src="./images/GL.webp" alt="">
+                        <h4>归路</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>井柏然谭松韵破镜重圆</div>
+                    
+                </li> 
+            </ul>
+            <ul>
+                <li>
+                    <a href="http://www.23ui.com/film/84549.html">
+                        <img src="./images/SHjz.webp" alt="">
+                        <h4>扫黑 决战</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>张颂文实力演绎保护伞</div>
+                    
+                </li> 
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://movie.douban.com/subject/30323380/">
+                        <img src="./images/pp.webp" alt="">
+                        <h4>中国乒乓之绝地反击</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>邓超吴京铁腕出击</div>
+                    
+                </li> 
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://movie.douban.com/subject/35905017/">
+                        <img src="./images/TLBB.webp" alt="">
+                        <h4>天龙八部 乔峰传</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>乔峰大侠的一生</div>
+                    
+                </li> 
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./images/ZJ.webp" alt="">
+                        <h4>诛烬枭亡</h4><div class="iconfont icon-bofang"></div>
+                    </a> 
+                    <div>丁海峰化身高启强</div>
+                    
+                </li> 
+            </ul>
+        </div>       
+        <div class="second">
+            <div class="secondNav"><b>电视剧</b></div>
+            <div class="nav">
+                <a href=""><span>内地</span></a>
+                <a href=""><span>港澳</span></a>
+                <a href=""><span>欧美</span></a>
+                <a href=""><span>日韩</span></a>
+                <a href=""><span>更多></span></a>    
+            </div>
+            <div class="secondContent">
+                <ul>
+                    <li><a href="https://movie.douban.com/subject/33447642/">
+                        <img src="./images/CMZX.webp" alt="">
+                        <h4>沉默的真相</h4>
+                        <div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>隐藏的真相能否水落石出</div>
+                        
+                    </li>
+
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/34779776/">
+                        <img src="./images/CLJ.webp" alt="">
+                        <h4>苍兰诀</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>狗血爱情故事</div>
+                        
+                    </li>
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/3703650/">
+                        <img src="./images/HPJCD.webp" alt="">
+                        <h4>黑袍纠察队</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>超能力者制裁犯罪</div>
+                        
+                    </li>
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/30198955/">
+                        <img src="./images/BYSJ.webp" alt="">
+                        <h4>边缘世界</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>未来世界的探险</div>
+                    </li>
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/26614085/">
+                        <img src="./images/JJ.jpg" alt="">
+                        <h4>爵迹</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>苍玄异世界之旅</div>
+                        
+                    </li>
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/35423605/">
+                        <img src="./images/WMDHY.jpg" alt="">
+                        <h4>我们的婚姻</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>婚后的爱情会变质吗</div>
+                        
+                    </li>
+                </ul> <ul>
+                    <li><a href="https://movie.douban.com/subject/27068009/">
+                        <img src="./images/QIHUN.jpg" alt="">
+                        <h4>棋魂</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>棋魂引领少年通神</div>
+                        
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="https://movie.douban.com/subject/26930540/">
+                        <img src="./images/WZZZ.webp" alt="">
+                        <h4>无证之罪</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>警方能否找到这关键的证据</div>
+                        
+                    </li>
+                </ul>
+                
+                
+            </div>
+            
+            
+        </div>
+
+        <div class="second">
+            <div class="secondNav"><b>&nbsp;动漫</b></div>
+            <div class="nav">
+                <a href=""><span>内地</span></a>
+                <a href=""><span>港澳</span></a>
+                <a href=""><span>欧美</span></a>
+                <a href=""><span>日韩</span></a>
+                <a href=""><span>更多></span></a>    
+            </div>
+            <div class="secondContent">
+                <ul>
+                    <li><a href="">
+                        <img src="./images/BS.jpg" alt="">
+                        <h4>白蛇</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>白蛇能等到许仙吗</div>
+                        
+                    </li>
+                </ul> 
+                <ul>
+                    <li><a href="">
+                        <img src="./images/DLDL.webp" alt="">
+                        <h4>斗罗大陆</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>唐三小舞磕cp</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/JDSJ.jpg" alt="">
+                        <h4>绝代双骄</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>史上最惊艳的两人</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/KDYG.webp" alt="">
+                        <h4>精灵宝可梦</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>可爱的小精灵</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/MBZG.jpg" alt="">
+                        <h4>秘宝之国</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>和我一起去寻宝吧</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/qzgl.png" alt="">
+                        <h4>企鹅公路</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>新海诚导演作品</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/SLQY.jpg" alt="">
+                        <h4>神澜奇遇</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>玄幻巨作</div>
+                        
+                    </li>
+                </ul><ul>
+                    <li><a href="">
+                        <img src="./images/XFJYL.jpg" alt="">
+                        <h4>仙风剑雨录</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>江湖开始动荡</div>
+                        
+                    </li>
+                </ul>
+            
+            </div>
+            
+            
+        </div>
+
+        <div class="second">
+            <div class="secondNav"><b>&nbsp;电影</b></div>
+            <div class="nav">
+                <a href=""><span>内地</span></a>
+                <a href=""><span>港澳</span></a>
+                <a href=""><span>欧美</span></a>
+                <a href=""><span>日韩</span></a>
+                <a href=""><span>更多></span></a>    
+            </div>
+            <div class="secondContent">
+                <ul>
+                    <li><a href="">
+                        <img src="./images/DYCC.webp" alt="">
+                        <h4>碟影重重</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>顶级间谍潜伏出神入化</div>
+                        
+                    </li>
+                </ul> 
+                <ul>
+                    <li><a href="">
+                        <img src="./images/FRJYD.webp" alt="">
+                        <h4>缝纫机乐队</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>大鹏导演作品</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/MNY.jpg" alt="">
+                        <h4>新木乃伊</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>新木乃伊卷土重来</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/QZZS.webp" alt="">
+                        <h4>洛基</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>狡诈之神洛基</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/STXZ.jpg" alt="">
+                        <h4>使徒行者</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>暴力犯罪即将开始</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/TRJ.jpg" alt="">
+                        <h4>血战唐人街</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>唐人街由我来守护</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/YW.jpg" alt="">
+                        <h4>叶问</h4><div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>一代宗师叶问</div>
+                        
+                    </li>
+                </ul>  <ul>
+                    <li><a href="">
+                        <img src="./images/YXJX.jpg" alt="">
+                        <h4>异星觉醒</h4> <div class="iconfont icon-bofang"></div>
+                        </a>
+                        <div>一起抵御异星</div>
+                       
+                    </li>
+                </ul> 
+            
+            </div>
+            
+            
+        </div>
+
+        <div class="third">
+            <div class="navOne">
+            <h3>微影评</h3>
+            <ul>
+                <li>
+                    <h5>李佳蕾</h5><span>评</span>
+                    <div>
+                        《流浪地球2》所呈现的未来世界中，
+                          不仅是中国科幻照进现实，
+                          更是国家硬实力发展的强力印证。
+                    </div>    
+                </li>        
+            </ul>
+            <ul>
+                <li>
+                    <h5>张宁</h5><span>评</span>
+                    <div>
+                        《满江红》不是那种故意抖包袱、挠笑点的笑料，而是在压抑和紧张的氛围中，让观众仿佛喘着粗气一样笑出声。
+                    </div>    
+                </li>        
+            </ul>
+            <ul>
+                <li>
+                    <h5>李静</h5><span>评</span>
+                    <div>
+                    《无名》仿佛一场剧本杀，每场戏都好似玩家们手上的线索卡，但又并非一个只为奔赴真相而粘合的剧本游戏。。
+                    </div>    
+                </li>        
+            </ul>
+            <ul>
+                <li>
+                    <h5>之初</h5><span>评</span>
+                    <div>
+                        《深海》从叙事角度来看，主角人设略显单薄，人物性格转变也没有交代清楚，稍显遗憾。
+                    </div>    
+                </li>        
+            </ul>
+            <ul>
+                <li>
+                    <h5>谭飞</h5><span>评</span>
+                    <div>
+                        《交换人生》中，张小斐不仅为观众带来笑料，还引发大家对恋人及人生的思考，值得一看。
+                    </div>    
+                </li>        
+            </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footerNav">
+                <div class="iconfont icon-type"> 
+                </div>
+                <div class="last">黄昏闪剧致力于普及中国最好的电影网集合它与中国一流制片人和机构合作提供在线观影。
+                    <br>© 2023年XTCG Inc.保留所有权利。-沪ICP备15025210号</div>
+                
+            </div>
+            <div class="xx">
+                <ul>
+                <h2>关于我们</h2>
+                <li><a href="">公司介绍</a></li>
+                <li><a href="">加入我们</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">国内外新闻</a></li>
+                <li><a href="">ShanJu.com</a></li>
+            </ul>
+            <ul>
+                <h2>业务合作</h2>
+                <li><a href="">内容合作</a></li>
+                <li><a href="">技术合作</a></li>
+                <li><a href="">广告ip衍生品合作</a></li>
+                <li><a href="">游戏业务合作</a></li>
+            </ul>
+            <ul>
+                <h2>服务声明</h2>
+                <li><a href="">用户投诉</a></li>
+                <li><a href="">内容投诉</a></li>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">历史协议版本</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
