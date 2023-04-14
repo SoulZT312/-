@@ -1,0 +1,86 @@
+{
+  "id": "3952244",
+  "name": "项目1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076319",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e8a3",
+      "unicode_decimal": 59555
+    },
+    {
+      "icon_id": "10905612",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "10487577",
+      "name": "游戏",
+      "font_class": "youxi2",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "833265",
+      "name": "历史记录",
+      "font_class": "lishijilu",
+      "unicode": "e8ad",
+      "unicode_decimal": 59565
+    },
+    {
+      "icon_id": "1418246",
+      "name": "游戏",
+      "font_class": "youxi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "5387672",
+      "name": "云上传",
+      "font_class": "yunshangchuan",
+      "unicode": "eb2c",
+      "unicode_decimal": 60204
+    },
+    {
+      "icon_id": "5387673",
+      "name": "云下载",
+      "font_class": "yunxiazai",
+      "unicode": "eb2d",
+      "unicode_decimal": 60205
+    },
+    {
+      "icon_id": "9810505",
+      "name": "游戏",
+      "font_class": "youxi1",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "145727",
+      "name": "搜索_填充",
+      "font_class": "sousuotianchong",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "5017256",
+      "name": "logo-type",
+      "font_class": "type",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "299913",
+      "name": "后河财富logo",
+      "font_class": "houhecaifulogo",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    }
+  ]
+}

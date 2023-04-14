@@ -1,0 +1,65 @@
+{
+  "id": "3952244",
+  "name": "项目1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "700856",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "3893823",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "4936984",
+      "name": "QQ",
+      "font_class": "QQ1",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "11372717",
+      "name": "微信",
+      "font_class": "weixin2",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "986277",
+      "name": "qq",
+      "font_class": "qq-copy-copy",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "809687",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "23363263",
+      "name": "微信- icon- WeChat",
+      "font_class": "weixinweixin",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}
